@@ -35,7 +35,7 @@ public class PropertiesFileController {
 
     @GetMapping("/{id:\\d+}")
     public PropertiesFile get(@PathVariable Long id) {
-        return propertiesFileRepository.findOne(id);
+        return propertiesFileRepository.getOne(id);
     }
 
     @Transactional(readOnly = false)
@@ -90,7 +90,7 @@ public class PropertiesFileController {
     @Transactional(readOnly = false)
     @PostMapping("/import/{id:\\d+}")
     public List<Properties> save(@PathVariable Long id) throws IOException {
-        PropertiesFile propertiesFile = propertiesFileRepository.findOne(id);
+        PropertiesFile propertiesFile = propertiesFileRepository.getOne(id);
 
         propertiesRepository.deleteByApplicationAndProfileAndLabel(propertiesFile.getApplication(), propertiesFile.getProfile(), propertiesFile.getLabel());
 
