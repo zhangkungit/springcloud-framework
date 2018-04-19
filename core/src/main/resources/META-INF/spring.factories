@@ -1,5 +1,6 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.springcloud.framework.core.autoconfig.ElasticJobAutoConfig
+  com.springcloud.framework.core.autoconfig.ElasticJobAutoConfig,\
+  com.springcloud.framework.core.autoconfig.SwaggerAutoConfig
 
 
 
