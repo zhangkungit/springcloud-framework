@@ -15,7 +15,7 @@
     <description> dubbo服务通用依赖引入(boot/dubbo/mybatis/redis)版</description>
 
     <dependencies>
-        <!-- yryz framework，以后改为自己的core-->
+        <!-- framework，以后改为自己的core-->
         <dependency>
             <groupId>springcloud-framework</groupId>
             <artifactId>core</artifactId>
@@ -103,6 +103,16 @@
             <artifactId>logstash-logback-encoder</artifactId>
         </dependency>
         <!-- dependency依赖时不会引入scope:test的包，需项目pom自行配置 -->
+
+        <!-- swagger -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
 
         <!--spring cloud-->
         <dependency>

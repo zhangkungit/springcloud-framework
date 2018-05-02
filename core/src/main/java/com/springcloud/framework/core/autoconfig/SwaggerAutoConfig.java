@@ -25,7 +25,7 @@ public class SwaggerAutoConfig {
     @Bean
     @ConditionalOnMissingBean(Docket.class)
     public Docket docket(@Value("${swagger.enable:true}") boolean enableSwagger,
-                         @Value("${swagger.basePackage:com.yryz}") String basePackage,
+                         @Value("${swagger.basePackage:com}") String basePackage,
                          @Value("${swagger.title:}") String title,
                          @Value("${swagger.current.version:v1}") String currentVersion,
                          @Value("${swagger.compatible.version:v1}") String compatibleVersion) {
