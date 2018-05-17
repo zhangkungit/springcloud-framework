@@ -11,7 +11,7 @@ import java.util.HashMap;
 /**
  * 返回对象工具
  *
- * @author pxie
+ * @author
  * @version 1.0
  * @data 2017/10/30 0030 50
  */
@@ -98,7 +98,7 @@ public class ResponseUtils {
      * @return T
      * @throws
      * @Description: 获取返回对象中对象
-     * @author jk
+     * @author
      */
     public static <T> T getResponseData(Response<T> res) {
         return res.getData();

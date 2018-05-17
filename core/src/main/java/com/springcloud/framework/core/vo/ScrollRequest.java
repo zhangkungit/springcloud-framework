@@ -10,7 +10,7 @@ import java.io.Serializable;
 public class ScrollRequest<F> implements Serializable {
     @ApiModelProperty("scrollId")
     private String scrollId = StringUtils.EMPTY;
-    
+
     @ApiModelProperty("返回条目数量 默认值10")
     private Integer limit = 10;
 
@@ -63,20 +63,20 @@ public class ScrollRequest<F> implements Serializable {
         this.sort = sort;
     }
 
-	public String getPreTag() {
-		return preTag;
-	}
+    public String getPreTag() {
+        return preTag;
+    }
 
-	public void setPreTag(String preTag) {
-		this.preTag = preTag;
-	}
+    public void setPreTag(String preTag) {
+        this.preTag = preTag;
+    }
 
-	public String getPostTag() {
-		return postTag;
-	}
+    public String getPostTag() {
+        return postTag;
+    }
 
-	public void setPostTag(String postTag) {
-		this.postTag = postTag;
-	}
-    
+    public void setPostTag(String postTag) {
+        this.postTag = postTag;
+    }
+
 }

@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 基于Redis的分布式锁
- * @author xiepeng
+ * @author
  * @version 1.0
  * @date 2018年1月17日15:11:41
  */

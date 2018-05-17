@@ -4,7 +4,7 @@ package com.springcloud.framework.core.vo;
 import java.io.Serializable;
 
 /**
- * @author suyongcheng
+ * @author
  * @version 1.0
  * @Description: rpc返回数据订阅
  * @date 2017年10月27日15:08:03

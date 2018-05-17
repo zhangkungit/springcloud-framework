@@ -4,7 +4,7 @@ package com.springcloud.framework.core.vo;
 /**
  * 返回码枚举<br/>
  * 100-200为网关系统专用，201-xxxxx可以开放给业务用
- * @author danshiyu
+ * @author
  * @version 1.0
  * @date 2018年1月8日 上午11:18:39
  */

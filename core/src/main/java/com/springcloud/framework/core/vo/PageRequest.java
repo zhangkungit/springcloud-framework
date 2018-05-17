@@ -34,7 +34,7 @@ public class PageRequest<F> implements Serializable {
         return next;
     }
 
-    public boolean needCount(){
+    public boolean needCount() {
         return COUNT_TOTAL.equals(this.total);
     }
 
