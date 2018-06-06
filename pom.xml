@@ -31,7 +31,7 @@
 
         <!--spring-->
         <spring.boot.version>2.0.0.RELEASE</spring.boot.version>
-        <spring.cloud.version>Finchley.M7</spring.cloud.version>
+        <spring.cloud.version>Edgware.SR2</spring.cloud.version>
 
         <!-- 第三方依赖版本 -->
         <dubbo.version>2.6.0</dubbo.version>

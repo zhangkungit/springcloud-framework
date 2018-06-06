@@ -1,3 +1,4 @@
+/*
 package com.springcloud.framework.core.feign;
 
 import feign.MethodMetadata;
@@ -21,10 +22,12 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+*/
 /**
  * @author Spencer Gibb
  * @author Abhijit Sarkar
- */
+ *//*
+
 public class YSpringMvcContract extends SpringMvcContract {
     private static final Logger LOGGER = LoggerFactory.getLogger(YSpringMvcContract.class);
 
@@ -102,4 +105,4 @@ public class YSpringMvcContract extends SpringMvcContract {
         }
         return false;
     }
-}
+}*/

@@ -1,3 +1,4 @@
+/*
 package com.springcloud.framework.core.feign;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -62,3 +63,4 @@ public class YRequestInterceptor implements RequestInterceptor {
         }
     }
 }
+*/

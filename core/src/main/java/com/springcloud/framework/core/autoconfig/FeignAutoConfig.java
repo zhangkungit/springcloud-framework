@@ -1,3 +1,4 @@
+/*
 package com.springcloud.framework.core.autoconfig;
 
 import com.springcloud.framework.core.feign.YRequestInterceptor;
@@ -24,3 +25,4 @@ public class FeignAutoConfig {
         return new YRequestInterceptor();
     }
 }
+*/
